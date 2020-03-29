@@ -30,7 +30,7 @@ public class Raja {
 	  public void beforeTest() {
 		  System.setProperty("webdriver.gecko.driver", "C:\\Testing tools\\Testing software\\geckodriver.exe");
 		  driver= new FirefoxDriver();
-		  driver.manage().window().maximize();
+		  
 		  driver.get("http://www.computechis.com/DemoSite/");
 		
 	  }
